@@ -1,0 +1,5 @@
+name: AxolotlSaver
+version: 1.0
+main: yschuurmans.AxolotlSaver.AxolotlSaver
+api-version: "1.14"
+load: STARTUP

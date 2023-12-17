@@ -1,2 +1,2 @@
 # Suffocation Saver
-A Minecraft plugin to prevent the deaths of named animals by suffocation. 
+A simple Minecraft plugin to prevent the deaths of nametagged Axolotls from suffocation. 
