@@ -7,17 +7,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 
-import java.util.logging.Logger;
-
 public class AxolotlDamageHandler implements Listener {
 
-    private final Logger logger;
-    private final AxolotlSaver plugin;
-
-    public AxolotlDamageHandler(AxolotlSaver plugin) {
-        this.plugin = plugin;
-        logger = plugin.getLogger();
-    }
+    public AxolotlDamageHandler(AxolotlSaver plugin) { }
 
     @EventHandler
     final void onEntityDamageEvent(EntityDamageEvent event) {
@@ -35,7 +27,7 @@ public class AxolotlDamageHandler implements Listener {
             if (entity.getCustomName() == null) {
                 return;
             }
-            //logger.info("Axolotl suffocation prevented");
+            //System.out.println("Axolotl suffocation prevented");
             event.setCancelled(true);
         }
     }

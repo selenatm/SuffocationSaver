@@ -2,7 +2,6 @@ package yschuurmans.AxolotlSaver;
 
 import yschuurmans.AxolotlSaver.EventListeners.AxolotlDamageHandler;
 import org.bukkit.plugin.java.JavaPlugin;
-import java.util.logging.Logger;
 
 public class AxolotlSaver extends JavaPlugin {
 
